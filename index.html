@@ -11,26 +11,25 @@
 
 <body>
     <div class="container">
-        <form class="col-md-6 m-auto py-5">
+        <form class="col-md-6 mt-5 m-auto py-5">
             <div class="input-group mb-3">
-                <input type="text" id="food-input" class="form-control" placeholder="search Your Favourite food ...">
+                <input type="text" id="food-input" class="form-control" placeholder="Search Your Favourite Food ...">
                 <button type="button" class="btn btn-danger" id="search-button">Search</button>
             </div>
-            <div class="container">
+            <div class="container ">
                 <div class="row">
-                    <div id="foods" class="d-flex"></div>
+                    <div id="foods" class="food-cards-style"></div>
                 </div>
             </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="foods-details"></div>
+        </div>
+    </div>
 
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div id="foods-details"></div>
-                </div>
-            </div>
-
-            <!-----Javascript-->
-            <script src="app.js"></script>
+    <!-----Javascript-->
+    <script src="app.js"></script>
 </body>
 
 </html>

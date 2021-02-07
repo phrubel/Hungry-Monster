@@ -1,4 +1,26 @@
 body{
-    padding: 100px;
     background-color:rgba(169, 169, 169, 0.384);
+}
+.food-cards-style{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    text-align: center; 
+    font-size: 25px;
+    font-weight: bold; 
+    margin-left: -50px;
+}
+.food-cards-style h2{
+padding: 10px 5px;
+}
+.food-cards-style img{
+    width: 300px;
+    border-radius: 25px;
+}
+#foods-details{
+    display: none;
+    text-align: center;
+}
+#foods-details img{
+    width: 300px;
 }
