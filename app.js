@@ -42,12 +42,16 @@ const getFoodsDetails = (lookupFoodId) => {
         <h2>${data.meals[0].strMeal} </h2>
         <h2>Catagories:${data.meals[0].strCategory} </h2>
         
-        <h4>${data.meals[0].strMeasure1}</h4>
-        <h4>${data.meals[0].strMeasure2}</h4>
-        <h4>${data.meals[0].strMeasure3}</h4>
-        <h4>${data.meals[0].strMeasure4}</h4>
-        <h4>${data.meals[0].strMeasure5}</h4>
-        <h4>${data.meals[0].strMeasure6}</h4>`;
+        <h4>${data.meals[0].strIngredient1}</h4>
+        <h4>${data.meals[0].strIngredient2}</h4>
+        <h4>${data.meals[0].strIngredient3}</h4>
+        <h4>${data.meals[0].strIngredient4}</h4>
+        <h4>${data.meals[0].strIngredient5}</h4>
+        <h4>${data.meals[0].strIngredient6}</h4>
+        <h4>${data.meals[0].strIngredient7}</h4>
+        <h4>${data.meals[0].strIngredient8}</h4>
+        <h4>${data.meals[0].strIngredient9}</h4>
+        <h4>${data.meals[0].strIngredient10}</h4>`;
       foodsDetails.appendChild(foodDetail);
     });
 };
