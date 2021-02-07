@@ -36,10 +36,11 @@ const getFoodsDetails = (lookupFoodId) => {
     .then((data) => {
       const foodsDetails = document.getElementById("foods-details");
       document.getElementById("foods-details").innerHTML = "";
-        // document.getElementById("foods-details").style.display = "block";
+        document.getElementById("foods-details").style.display = "block";
       const foodDetail = document.createElement("div")
       foodDetail.innerHTML = `<img src="${data.meals[0].strMealThumb}">
         <h2>${data.meals[0].strMeal} </h2>
+
         <h2>Catagories:${data.meals[0].strCategory} </h2>
         
         <h4>${data.meals[0].strIngredient1}</h4>
